@@ -1,10 +1,21 @@
+import { useState } from "react";
 
 
 const StatefulForm = () => {
+    const [email,setEmail]=useState(null);
 
     const handleSubmit=(e)=>{
         e.preventDefault();
-        console.log('it working')
+        console.log(email)
+
+    }
+
+    const emailHandler=(e)=>{
+
+        setEmail(e.target.value);
+        // console.log(e.target.value)
+        
+
     }
 
   return (
@@ -12,7 +23,7 @@ const StatefulForm = () => {
 
 <form onSubmit={handleSubmit}>
 
-<input className='border border-red-600 rounded-md' type="text" name="name" />
+<input onChange={emailHandler} className='border border-red-600 rounded-md' type="text" name="name" />
 <br />
 <input className='border p-1 bg-slate-400  rounded-md' type="submit" value="submit" />
 </form>
