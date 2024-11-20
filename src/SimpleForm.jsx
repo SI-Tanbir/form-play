@@ -4,7 +4,7 @@ function SimpleForm() {
 
     const handleSubmit=(e)=>{
     
-        // e.preventDefault();// prevent the page to reload
+        e.preventDefault();// prevent the page to reload
         console.log(e.target.name.value)
         console.log('form submitted')
 
