@@ -1,3 +1,4 @@
+import RefForm from "./RefForm";
 import SimpleForm from "./SimpleForm";
 import StatefulForm from "./StatefulForm";
 
@@ -10,7 +11,10 @@ function App() {
 {/* 
     <SimpleForm></SimpleForm> */}
 
-    <StatefulForm></StatefulForm>
+    {/* <StatefulForm></StatefulForm> */}
+
+    <RefForm></RefForm>
+    
     </div>
   );
 }
