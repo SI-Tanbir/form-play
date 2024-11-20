@@ -1,23 +1,15 @@
-
-import './App.css'
+import SimpleForm from "./SimpleForm";
 
 function App() {
 
+
+  
   return (
     <div>
-      
-    <form>
 
-    <input type="text" name="name" />
-    <br />
-    <input type="email" name="email" />
-    <br />
-    <input type="submit" value="submit" />
-    </form>
-
-   
+    <SimpleForm></SimpleForm>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
