@@ -9,9 +9,12 @@ const RefForm = () => {
 
     function handleSubmit(e){
 
+
         e.preventDefault()
         console.log(usname.current.value)
         console.log(uspass.current.value)
+     
+        
     }
   return (
     <div>
@@ -25,7 +28,7 @@ const RefForm = () => {
 <br />
 <input className='border p-1 bg-slate-400  rounded-md' type="submit" value="submit" />
 
-
+ 
 </form>
     
         </div>

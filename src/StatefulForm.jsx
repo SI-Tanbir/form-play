@@ -27,8 +27,6 @@ const StatefulForm = () => {
         setEmail(e.target.value);
         // console.log(e.target.value)
         
-
-
     }
 
     const passHandler =(e)=>{

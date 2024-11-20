@@ -1,3 +1,4 @@
+import HookForm from "./Hook/HookForm";
 import RefForm from "./RefForm";
 import SimpleForm from "./SimpleForm";
 import StatefulForm from "./StatefulForm";
@@ -13,8 +14,10 @@ function App() {
 
     {/* <StatefulForm></StatefulForm> */}
 
-    <RefForm></RefForm>
-    
+    {/* <RefForm></RefForm> */}
+
+
+  <HookForm></HookForm>
     </div>
   );
 }
