@@ -1,4 +1,5 @@
 import SimpleForm from "./SimpleForm";
+import StatefulForm from "./StatefulForm";
 
 function App() {
 
@@ -6,8 +7,10 @@ function App() {
   
   return (
     <div>
+{/* 
+    <SimpleForm></SimpleForm> */}
 
-    <SimpleForm></SimpleForm>
+    <StatefulForm></StatefulForm>
     </div>
   );
 }
